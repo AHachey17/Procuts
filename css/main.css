@@ -1,0 +1,31 @@
+nav{
+    background-image: url("../img/Centerville_Art1.png");
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.navLinks a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.aboutUsMain{
+   display: flex;
+}
+
+.aboutHeader{
+    font-family: Rubik Lines;
+    color: rgb(187, 12, 73);
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutUsPara{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    margin: 2%;
+}
