@@ -1,14 +1,19 @@
+/*About Us styling*/
 nav{
     background-image: url("../img/Centerville_Art1.png");
+    background-size: cover;
     display: flex;
     align-items: center;
     flex-direction: column;
+    height: 160px;
 }
 
 .navLinks a{
     text-decoration: none;
     color: white;
     font-size: 20px;
+    background-color: rgba(136, 108, 63, 0.809);
+    border-radius: 50%;
 }
 
 .aboutUsMain{
