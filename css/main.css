@@ -1,5 +1,5 @@
 /*About Us styling*/
-nav{
+.aboutUsNav{
     background-image: url("../img/Centerville_Art1.png");
     background-size: cover;
     display: flex;
@@ -8,7 +8,8 @@ nav{
     height: 160px;
 }
 
-.navLinks a{
+
+.aboutUSnavLinks a{
     text-decoration: none;
     color: white;
     font-size: 20px;
@@ -34,3 +35,118 @@ nav{
     font-size: 25px;
     margin: 2%;
 }
+
+/*Services styling*/
+.servicesNav{
+    background-image: url("../img/Bridgewater_Art2.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 160px;
+}
+
+.servicesNavLinks a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(80, 106, 20, 0.809);
+    border-radius: 50%;
+}
+
+.servicesHeader{
+    font-family: Rubik Lines;
+    color: rgb(35, 75, 34);
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+table{
+    background-color: rgba(30, 41, 4, 0.642);
+    border-radius: 5%;
+    height: 300px;
+    width: 28%;
+    margin: 2%;
+    padding: 2%;
+
+}
+
+thead th{
+    font-size: 30px;
+    color: rgb(245, 184, 18);
+}
+
+tbody{
+    color: white;
+    font-size: 18px;
+}
+
+.servicesProcuts{
+    float: left;
+}
+.servicesProstyles{
+    float: left;
+}
+
+.servicesProcolor{
+    float: right;
+
+}
+
+/*Products styling*/
+.productsNav{
+    background-image: url("../img/Dennis_Art1.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 160px;
+}
+
+.productsNavLinks a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    background-color: rgba(248, 185, 216, 0.658);
+}
+
+.productsHeader{
+    font-family: Rubik Lines;
+    color: rgb(30, 41, 77);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.procutsProductsImgs{
+    height: 500px;
+    width: 66%;
+}
+.logoSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.productLogos{
+    width: 8%;
+    height: 100px;
+    margin: 5%;
+    border-radius: 20%;
+}
+
+.imgSlides{
+    display: flex;
+    justify-content: center;
+    background-image: url("../img/Orleans_Art1.png");
+    background-repeat: space repeat;
+}
+
+
+ 
+
+
+
