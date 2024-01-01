@@ -145,6 +145,56 @@ tbody{
     background-repeat: space repeat;
 }
 
+/*Careers styling*/
+.careersNav{
+    background-image: url("../img/Mashpee_Art2.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 160px;
+}
+
+.careersNavLinks a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    background-color: rgba(248, 128, 0, 0.658);
+}
+
+
+.careerBody{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+
+
+.careerBody h1{
+    font-family: Rubik Lines;
+    color:  rgba(248, 128, 0, 0.97);
+    font-size: 30px;
+}
+
+.careerSection{
+    background-color: rgba(179, 188, 160, 0.717);
+    width: 60%;
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.careerSection p{
+    text-align: center;
+    font-size: 18px;
+}
+
+
 
  
 
