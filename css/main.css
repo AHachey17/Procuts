@@ -229,6 +229,62 @@ tbody{
     border-radius: 5%;
 }
 
+/*home styling*/
+.homeNav{
+    background: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 160px;
+}
+
+.homeNavLinks a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 10%;
+}
+
+.homeTop h1{
+    font-family: Caveat;
+    font-size: 75px;
+    color: red;
+    text-align: center;
+}
+
+.homeMain .links{
+    display: flex;
+    justify-content: center;
+    margin: 0 -60%;
+}
+
+.homeMain .links section{
+    display: flex;
+    justify-content: center;
+    width: 28%;
+    height: 200px;
+    text-align: center;
+}
+
+.homeMain .links section a{
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.homeBottomLeft{
+    background-color: black;
+}
+
+.homeBottomRight{
+    background-color: black;
+}
+
+
+
  
 
 
