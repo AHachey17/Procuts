@@ -5,7 +5,13 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 160px;
+    height: 130px;
+}
+
+section.aboutUSnavLinks{
+    text-align: center;
+    width: 100%;
+    background-color: #7e5c45;
 }
 
 
@@ -13,9 +19,13 @@
     text-decoration: none;
     color: white;
     font-size: 20px;
-    background-color: rgba(136, 108, 63, 0.809);
-    border-radius: 10%;
+    margin: 1%;
 }
+
+.aboutUSnavLinks a:hover {
+    color: rgb(187, 12, 73);
+   }
+ 
 
 .aboutUsMain{
    display: flex;
@@ -32,8 +42,22 @@
 .aboutUsPara{
     display: flex;
     align-items: center;
+    text-align: center;
     font-size: 25px;
     margin: 2%;
+    padding: 5%;
+    background-color: rgba(187, 12, 73, 0.669);
+    border-radius: 10%;
+    color: white;
+    box-shadow: 10px 5px 5px grey;
+    width: 35%;
+
+}
+
+.warehamProcuts{
+    width: 50%;
+    border-radius: 20%;
+    margin: 5%;
 }
 
 /*Services styling*/
@@ -43,7 +67,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 160px;
+    height: 130px;
 }
 
 .servicesNavLinks a{
@@ -231,25 +255,37 @@ tbody{
 
 /*home styling*/
 .homeNav{
-    background: black;
+    background-image: url("../img/mb_art6.png");
+    background-size: cover;
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 160px;
+    height: 130px;
+}
+
+section.homeNavLinks{
+    text-align: center;
+    width: 100%;
+    background-color: #ec9e65;
 }
 
 .homeNavLinks a{
     text-decoration: none;
     color: white;
     font-size: 20px;
-    border-radius: 10%;
+    margin: 1%
 }
 
+.homeNavLinks a:hover {
+   color: rgb(142, 131, 120);
+  }
+
 .homeTop h1{
-    font-family: Caveat;
+    font-family: Rubik Lines;
     font-size: 75px;
-    color: red;
+    color: grey;
     text-align: center;
+    text-shadow: 10px 5px 5px rgb(237, 184, 119);
 }
 
 .homeMain .links{
@@ -261,14 +297,14 @@ tbody{
 .homeMain .links section{
     display: flex;
     justify-content: center;
-    width: 28%;
-    height: 200px;
+    width: 33%;
+    height: 250px;
     text-align: center;
 }
 
 .homeMain .links section a{
     text-decoration: none;
-    color: red;
+    color: white;
     font-size: 20px;
     display: flex;
     flex-direction: column;
@@ -276,11 +312,30 @@ tbody{
 }
 
 .homeBottomLeft{
-    background-color: black;
+    background-image: url("../img/mb_art1.png");
+    margin-right: 5%;
+    display: flex;
+    border-radius: 10%;
+    box-shadow: 10px 5px 5px grey;
+}
+
+.homeBottomMiddle{
+    background-image: url("../img/mb_art7.png");
+    margin-right: 5%;
+    border-radius: 10%;
+    box-shadow: 10px 5px 5px grey;
 }
 
 .homeBottomRight{
-    background-color: black;
+    background-image: url("../img/mb_art1.png");
+    border-radius: 10%;
+    box-shadow: 10px 5px 5px grey;
+}
+
+.fa-solid{
+    color: white;
+    font-size: 50px;
+    margin: 5%;
 }
 
 
