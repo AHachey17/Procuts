@@ -70,13 +70,23 @@ section.aboutUSnavLinks{
     height: 130px;
 }
 
+section.servicesNavLinks{
+    text-align: center;
+    width: 100%;
+    background-color: rgb(123, 136, 93);
+}
+
 .servicesNavLinks a{
     text-decoration: none;
     color: white;
     font-size: 20px;
-    background-color: rgba(80, 106, 20, 0.809);
-    border-radius: 10%;
+    margin: 1%;
 }
+
+.servicesNavLinks a:hover {
+    color: rgb(245, 184, 18);
+
+   }
 
 .servicesHeader{
     font-family: Rubik Lines;
@@ -84,6 +94,14 @@ section.aboutUSnavLinks{
     font-size: 50px;
     display: flex;
     justify-content: center;
+    text-shadow: 10px 5px 5px  rgb(245, 184, 18);
+
+}
+
+section.servicesList{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 
@@ -95,6 +113,7 @@ table{
     width: 28%;
     margin: 2%;
     padding: 2%;
+    box-shadow: 10px 5px 5px grey;
 
 }
 
@@ -108,16 +127,18 @@ tbody{
     font-size: 18px;
 }
 
-.servicesProcuts{
-    float: left;
-}
-.servicesProstyles{
-    float: left;
+.servicesProHighlights{
+    width: 50%;
 }
 
-.servicesProcolor{
-    float: right;
+.servicesNotes{
+ border: 2px dotted green;
+ width: 35%;
+ text-align: center;
+}
 
+.fa-star:before{
+    font-size: 18px;
 }
 
 /*Products styling*/
@@ -127,23 +148,35 @@ tbody{
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 160px;
+    height: 130px;
+}
+
+section.productsNavLinks{
+    text-align: center;
+    width: 100%;
+    background-color: rgb(239, 206, 223);
 }
 
 .productsNavLinks a{
     text-decoration: none;
     color: white;
     font-size: 20px;
-    border-radius: 10%;
-    background-color: rgba(248, 185, 216, 0.658);
+    margin: 1%;
 }
+
+.productsNavLinks a:hover {
+    color: rgb(33, 39, 126);
+
+   }
 
 .productsHeader{
     font-family: Rubik Lines;
     color: rgb(30, 41, 77);
-    font-size: 30px;
+    font-size: 50px;
     display: flex;
     justify-content: center;
+    text-shadow: 10px 5px 5px   rgb(239, 206, 223);
+
 }
 
 .procutsProductsImgs{
@@ -177,16 +210,28 @@ tbody{
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 160px;
+    height: 130px;
+}
+
+section.careersNavLinks{
+    text-align: center;
+    width: 100%;
+    background-color: rgb(255, 132, 0);
 }
 
 .careersNavLinks a{
     text-decoration: none;
     color: white;
     font-size: 20px;
-    border-radius: 10%;
-    background-color: rgba(248, 128, 0, 0.658);
+    margin: 1%;
+
 }
+
+.careersNavLinks a:hover {
+    color: rgb(84, 52, 31);
+
+   }
+
 
 
 .careerBody{
@@ -201,8 +246,9 @@ tbody{
 
 .careerBody h1{
     font-family: Rubik Lines;
-    color:  rgba(248, 128, 0, 0.97);
-    font-size: 30px;
+    color:  rgb(104, 62, 38);
+    font-size: 50px;
+    text-shadow: 10px 5px 5px rgba(248, 128, 0, 0.97);
 }
 
 .careerSection{
@@ -222,36 +268,95 @@ tbody{
 
 /*locations styling*/
 .locationsNav{
-    background-image: url("../img/Centerville_Art2.png");
+    background-image: url("../img/mb_art3.png");
     background-size: cover;
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 160px;
+    height: 130px;
+}
+
+section.locationsNavLinks{
+    text-align: center;
+    width: 100%;
+    background-color: rgb(141, 200, 248);
 }
 
 .locationsNavLinks a{
     text-decoration: none;
     color: white;
     font-size: 20px;
-    border-radius: 10%;
-    background-color: rgba(230, 78, 78, 0.658);
+    margin: 1%;
 }
 
-.locationMain{
+.locationsNavLinks a:hover {
+    color: rgb(84, 52, 31);
+
+   }
+
+.locationMain{   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.locationMain div{
+    text-align: center;
+    margin: 2% 0%;
+}
+
+.locationMain div h2{
+    font-family: Rubik Lines;
+    font-size: 50px;
+    color: rgb(84, 52, 31);
+    text-shadow: 10px 5px 5px rgb(141, 200, 248);
+
+}
+
+.locationMain div p{
+    font-family: Rubik Lines;
+    font-size: 30px;
+    color: rgb(84, 52, 31);
+}
+
+.locationMain a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(141, 200, 248);
+    border: 2px solid rgb(141, 200, 248);
+    border-radius: 8%;
+}
+
+
+
+.allLocations{
+    background-image: url("../img/bw_art1.png");
+    background-size: cover;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
+    width: 90%;
+    border-radius: 10%;
 }
 
-.locationMain section{
-    background-color: rgba(254, 172, 70, 0.322);
+.allLocations section{
+    width: 30%;
+    padding: 1%;
+    background-color: rgba(133, 132, 131, 0.671);
     margin: 2%;
     text-align: center;
     border-radius: 5%;
+    color: white;
+    box-shadow: 10px 5px 5px rgb(255, 255, 255);
+
 }
+
+
+
+
 
 /*home styling*/
 .homeNav{
