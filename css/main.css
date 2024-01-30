@@ -486,6 +486,64 @@ section.homeNavLinks{
     .careerBody h1{
         text-align: center;
     }
+    .procutsLogo{
+        width: 75%;
+    }
+
+    .homeNav{
+        flex-direction: row ;
+        padding: 2%;
+    }
+
+    section.homeNavLinks{
+        width: 25%;
+    }
+
+    .aboutUsNav{
+        flex-direction: row ;
+        padding: 2%;
+    }
+
+    section.aboutUSnavLinks{
+        width: 25%;
+    }
+
+    .careersNav{
+        flex-direction: row ;
+        padding: 2%;
+    }
+
+    section.careersNavLinks{
+        width: 25%;
+    }
+
+    .locationsNav{
+        flex-direction: row ;
+        padding: 2%;
+    }
+
+    section.locationsNavLinks{
+        width: 25%;
+    }
+
+    .servicesNav{
+        flex-direction: row ;
+        padding: 2%;
+    }
+
+    section.servicesNavLinks{
+        width: 25%;
+    }
+
+    .productsNav{
+        flex-direction: row ;
+        padding: 2%;
+    }
+
+    section.productsNavLinks{
+        width: 25%;
+    }
+ 
   }
 
   @media (max-width: 615px) {
@@ -497,6 +555,10 @@ section.homeNavLinks{
   @media (max-width: 500px) {
     .allLocations{
         flex-direction: column;
+    }
+
+    nav{
+        margin-bottom: 5%;
     }
   }
 
