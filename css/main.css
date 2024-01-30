@@ -444,6 +444,65 @@ section.homeNavLinks{
     margin: 5%;
 }
 
+/*mobile site*/
+@media (max-width: 1280px) {
+    .warehamProcuts{
+        width: 40%;
+        border-radius: 20%;
+        margin: 5%;
+    }
+    .aboutUsMain {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutUsPara{
+        width: 75%;
+    }
+  }
+
+
+  @media (max-width: 1030px) {
+    section.servicesList {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+
+  @media (max-width: 755px) {
+    .imgSlides{
+        display: none;
+    }
+    .productsHeader{
+        text-align: center;
+    }
+
+    .careerBody h1{
+        text-align: center;
+    }
+  }
+
+  @media (max-width: 615px) {
+    .aboutHeader{
+        text-align: center;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .allLocations{
+        flex-direction: column;
+    }
+  }
+
+
+  
+
 
 
  
