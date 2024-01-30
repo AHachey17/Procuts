@@ -473,6 +473,21 @@ section.homeNavLinks{
         justify-content: center;
         align-items: center;
     }
+    .servicesProcuts{
+        width: 75%;
+    }
+    .servicesProstyles{
+        width: 75%;
+    }
+    .servicesProcolor{
+        width: 75%;
+    }
+    .servicesProHighlights{
+        width: 75%;
+    }
+    .servicesNotes{
+        width: 75%;
+    }
   }
 
   @media (max-width: 755px) {
