@@ -443,6 +443,53 @@ section.homeNavLinks{
     font-size: 50px;
     margin: 5%;
 }
+/*coupon styling*/
+.couponNav{
+    background-image: url("../img/Centerville_Art2.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 130px;
+}
+
+section.couponNavLinks{
+    text-align: center;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+.couponNavLinks a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 1%;
+}
+
+.couponNavLinks a:hover {
+    color: rgb(228, 96, 7);
+
+   }
+   
+.coupon{
+    display: flex;
+    justify-content: center;
+}
+
+.coupon img{
+    width: 75%;
+    margin-top: 5%;
+}
+
+/*footer*/
+footer{
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: center;
+}
+
 
 /*mobile site*/
 @media (max-width: 1280px) {
